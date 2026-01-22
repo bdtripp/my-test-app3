@@ -1,3 +1,3 @@
-FROM 2.4-alpine
-COPY test3.html /usr/local/apache2/htdocs/test3.html
+FROM httpd:2.4-alpine
+COPY index.html /usr/local/apache2/htdocs/index.html
 EXPOSE 80
